@@ -6,5 +6,6 @@
   "ru": "— Новое приложение IB: вкладка «Разгрузки» (Shipped → PL-WRO01, outbound ±2 дня, Overdue-маркеры; внизу Pending Outbound с просроченным Arrival Duration)\n— Вкладка «Загрузки» — как раньше, тип перевода выпадающий список\n— Chrome скрытый, автовход\n— Перенос данных из старой установки IB/OB",
   "en": "— New IB app: 'Unloads' tab (Shipped -> PL-WRO01, outbound ±2 days, Overdue markers; Pending Outbound with overdue Arrival Duration at the bottom)\n— 'Loads' tab as before, transfer type dropdown\n— Hidden Chrome, auto-login\n— Data migration from the old IB/OB install",
   "pl": "— Nowa aplikacja IB: zakładka 'Rozładunki' (Shipped -> PL-WRO01, outbound ±2 dni, markery Overdue; na dole Pending Outbound z zaległym Arrival Duration)\n— Zakładka 'Załadunki' jak dawniej, typ transferu rozwijany\n— Ukryty Chrome, autologowanie\n— Migracja danych ze starej instalacji IB/OB"
- }
+ },
+ "url": "https://github.com/mwv97f4mbb-star/tms-ib-updates/releases/download/v1.0.0/IB_Setup_1_0_0.exe"
 }
