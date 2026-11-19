@@ -1,11 +1,10 @@
 {
- "version": "1.0.6",
- "file": "IB_Setup_1_0_6.exe",
- "sha256": "f39e2ae45e4a5edd448963e4d715a0e2b50bc6ba826e235b31e7b4c8995c3c19",
+ "version": "1.0.7",
+ "file": "IB_Setup_1_0_7.exe",
+ "sha256": "2a1057def770a9f958db033d3314668852f30110052d5003edb6a90e2b8b00f9",
  "changelog": {
   "ru": "— Первый запуск Chrome теперь ВИДИМЫЙ при новом профиле (первичная настройка: поисковик и т.п.), дальше — скрытый\n— Общие улучшения стабильности",
   "en": "— First Chrome launch is now VISIBLE for a fresh profile (first-run setup: search engine etc.), hidden afterwards\n— General stability improvements",
   "pl": "— Pierwszy start Chrome jest teraz WIDOCZNY dla nowego profilu (konfiguracja: wyszukiwarka itp.), później ukryty\n— Ogólne ulepszenia stabilności"
- },
- "url": "https://github.com/mwv97f4mbb-star/tms-ib-updates/releases/download/v1.0.6/IB_Setup_1_0_6.exe"
+ }
 }
