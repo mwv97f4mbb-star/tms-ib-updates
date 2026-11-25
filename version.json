@@ -6,5 +6,6 @@
   "ru": "Версия 2.0.1\n— Устойчивость: зависший Chrome (порт отладки) теперь распознаётся и перезапускается автоматически — в т.ч. для ручного входа в TMS; раньше в этой ситуации сбор мог простаивать часами\n— Уведомления: повреждённая очередь outbox больше не блокирует отправку (битые записи откладываются в outbox.bad)\n— Ошибки установки обновлений теперь пишутся в audit.log\n— Мелочи: корректный итог прогресса скачивания обновления",
   "en": "Version 2.0.1\n— Stability: a hung Chrome on the debug port is now detected and restarted automatically — incl. for manual TMS login; previously collection could stall for hours\n— Notifications: a corrupted outbox queue no longer blocks sending (bad records are moved to outbox.bad)\n— Update install errors are now written to audit.log\n— Minor: correct download progress total",
   "pl": "Wersja 2.0.1\n— Stabilność: zawieszony Chrome (port debugowania) jest wykrywany i automatycznie restartowany — także do ręcznego logowania TMS; wcześniej pobieranie mogło stać godzinami\n— Powiadomienia: uszkodzona kolejka outbox nie blokuje już wysyłki (wadliwe wpisy trafiają do outbox.bad)\n— Błędy instalacji aktualizacji trafiają do audit.log\n— Drobiazgi: poprawna suma postępu pobierania"
- }
+ },
+ "url": "https://github.com/mwv97f4mbb-star/tms-ib-updates/releases/download/v2.0.1/IB_Setup_2_0_1.exe"
 }
