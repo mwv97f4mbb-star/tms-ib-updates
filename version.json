@@ -1,11 +1,10 @@
 {
- "version": "2.0.0",
- "file": "IB_Setup_2_0_0.exe",
- "sha256": "1f352b13e339a2a57439684c7d00db39b64eada4c874078a9e35cf059189ea9b",
+ "version": "2.0.1",
+ "file": "IB_Setup_2_0_1.exe",
+ "sha256": "9c6babd3236781a0a53fbaffdebb8253bbd38875ed1b8b4ad9eb8cc74af71c10",
  "changelog": {
-  "ru": "Версия 2.0\n— «Загрузки»: кеш материалов — повторная загрузка за секунды (запрашиваются только новые и изменённые машины); Shift+клик по «Загрузить» — полное обновление без кеша\n— «Загрузки»: фильтр статусов — Активные / Все / Закрытые (выбор запоминается)\n— «Разгрузки»: поле времени — по отправке / по прибытию (план)\n— «Разгрузки»: режим даты — «±2 дня» или произвольный период (две даты)",
-  "en": "Version 2.0\n— Loads: materials cache — repeat load takes seconds (only new/changed trucks are re-fetched); Shift+click Load = full refresh\n— Loads: status filter — Active / All / Closed (remembered)\n— Unloads: time field switch — by shipping / by arrival (plan)\n— Unloads: date mode — ±2 days or a custom range (two dates)",
-  "pl": "Wersja 2.0\n— Załadunki: pamięć materiałów — ponowne ładowanie trwa sekundy (pobierane tylko nowe/zmienione auta); Shift+klik = pełne odświeżenie\n— Załadunki: filtr statusów — Aktywne / Wszystkie / Zamknięte (zapamiętywany)\n— Rozładunki: pole czasu — wg wysyłki / wg przyjazdu (plan)\n— Rozładunki: tryb daty — ±2 dni lub dowolny okres (dwie daty)"
- },
- "url": "https://github.com/mwv97f4mbb-star/tms-ib-updates/releases/download/v2.0.0/IB_Setup_2_0_0.exe"
+  "ru": "Версия 2.0.1\n— Устойчивость: зависший Chrome (порт отладки) теперь распознаётся и перезапускается автоматически — в т.ч. для ручного входа в TMS; раньше в этой ситуации сбор мог простаивать часами\n— Уведомления: повреждённая очередь outbox больше не блокирует отправку (битые записи откладываются в outbox.bad)\n— Ошибки установки обновлений теперь пишутся в audit.log\n— Мелочи: корректный итог прогресса скачивания обновления",
+  "en": "Version 2.0.1\n— Stability: a hung Chrome on the debug port is now detected and restarted automatically — incl. for manual TMS login; previously collection could stall for hours\n— Notifications: a corrupted outbox queue no longer blocks sending (bad records are moved to outbox.bad)\n— Update install errors are now written to audit.log\n— Minor: correct download progress total",
+  "pl": "Wersja 2.0.1\n— Stabilność: zawieszony Chrome (port debugowania) jest wykrywany i automatycznie restartowany — także do ręcznego logowania TMS; wcześniej pobieranie mogło stać godzinami\n— Powiadomienia: uszkodzona kolejka outbox nie blokuje już wysyłki (wadliwe wpisy trafiają do outbox.bad)\n— Błędy instalacji aktualizacji trafiają do audit.log\n— Drobiazgi: poprawna suma postępu pobierania"
+ }
 }
